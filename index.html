@@ -1,0 +1,295 @@
+<html lang="en"></html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Portfolio
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Inter', sans-serif;
+        }
+       
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        font-size: 50px;
+        color: rgba(255, 255, 255, 0.3);
+        width: 100%;
+        text-align: center;
+        z-index: 9999;
+        pointer-events: none;
+    }
+  </style>
+ </head>
+ <body class="bg-gray-50">
+  <header class="bg-black shadow-md sticky top-0 z-50">
+   <div class="container mx-auto px-16 py-4 flex justify-between items-center">
+    <div class="text-2xl font-bold text-white">
+     Y O O N
+    </div>
+    <nav class="hidden md:flex space-x-8">
+     <a class="text-gray-300 hover:text-white" href="#1">
+      Home
+     </a>
+     <a class="text-gray-300 hover:text-white" href="#2">
+      Experience
+     </a>
+     <a class="text-gray-300 hover:text-white" href="#3">
+      About me
+     </a>
+     <a class="text-gray-300 hover:text-white" href="#4">
+      Recent Projects
+     </a>
+    </nav>
+    <button type="button" class="hidden md:inline-block bg-white text-black px-4 py-2 rounded-md" id="Gmail">
+        Contact Me
+    </button>
+    
+    <button class="md:hidden text-white" id="menu-button">
+     <i class="fas fa-bars">
+     </i>
+    </button>
+   </div>
+   <div class="md:hidden" id="mobile-menu" style="display: none;">
+    <nav class="px-12 py-4 space-y-2">
+     <a class="block text-gray-300 hover:text-white" href="#1">
+      Home
+     </a>
+     <a class="block text-gray-300 hover:text-white" href="#2">
+      Experience
+     </a>
+     <a class="block text-gray-300 hover:text-white" href="#3">
+      About me
+     </a>
+     <a class="block text-gray-300 hover:text-white" href="#4">
+      Recent Projects
+     </a>
+     <button type="button" class="hidden md:inline-block bg-white text-black px-4 py-2 rounded-md" id="Gmail">
+        Contact Me
+    </button>
+    
+    </nav>
+   </div>
+  </header>
+  <main>
+   <section id="1" class="bg-gray-100 py-20 flex justify-around">
+    <div class="container mx-auto px-16 flex flex-col md:flex-row items-center space-y-10 md:space-y-0 md:space-x-10">
+     <div class="md:w-1/2 order-2 md:order-1">
+      <p class="text-gray-600 mb-2">
+       Hey, I am Yoon Phyu Phyu Aye
+      </p>
+      <h1 class="text-4xl font-bold text-gray-800 leading-tight">
+       I create
+       <span class="text-black">
+        Interior Design
+       </span>
+       and 3D Modelling
+      </h1>
+      <p class="text-gray-600 mt-4">
+       Interior Designer | 3D Visualizer
+      </p>
+      <a class="mt-6 inline-block bg-black text-white px-6 py-3 rounded-md" href="#">
+       Download CV
+      </a>
+     </div>
+     <div class="md:w-1/2 order-1 md:order-2 flex justify-center">
+      <img alt="Portrait of John, a product designer" class="rounded-lg shadow-lg" height="400" src="ypp.jpg" width="400"/>
+     </div>
+    </div>
+   </section>
+   <section class="py-20 flex justify-around" id="2">
+    <div class="container mx-auto px-20">
+     <h2 class="text-3xl font-bold text-gray-800 mb-10">
+      My Experience
+     </h2>
+     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+       <div class="text-4xl text-black mb-4">
+        <i class="fas fa-bullseye">
+        </i>
+       </div>
+       <h3 class="text-xl font-semibold text-gray-800 mb-2">
+        Digital &amp; Content
+       </h3>
+       <p class="text-gray-600">
+        Experience in digital content creation, using a variety of tools to design engaging visuals.
+       </p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+       <div class="text-4xl text-black mb-4">
+        <i class="fas fa-paint-brush">
+        </i>
+       </div>
+       <h3 class="text-xl font-semibold text-gray-800 mb-2">
+        2D &amp; 3D Model
+       </h3>
+       <p class="text-gray-600">
+        Expert in photorealistic 3D rendering using 3ds Max, Blender, V-Ray, and Photoshop.
+       </p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+       <div class="text-4xl text-black mb-4">
+        <i class="fas fa-laptop-code">
+        </i>
+       </div>
+       <h3 class="text-xl font-semibold text-gray-800 mb-2">
+        UI &amp; UX Design
+       </h3>
+       <p class="text-gray-600">
+        Experience in UIUX with tools such as Sketch, Adobe XD and Figma, focused on user-centered designs.
+       </p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+       <div class="text-4xl text-black mb-4">
+        <i class="fas fa-code">
+        </i>
+       </div>
+       <h3 class="text-xl font-semibold text-gray-800 mb-2">
+        Web Development
+       </h3>
+       <p class="text-gray-600">
+        Experience in Web Development skilled in HTML, CSS, JavaScript and Node.JS, PHP, Database.
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="bg-white py-20 flex justify-around" id="3">
+    <div class="container mx-auto px-20 flex flex-col md:flex-row items-center space-y-10 md:space-y-0 md:space-x-10">
+     <div class="md:w-1/2">
+      <img alt="Portrait of John in a suit" class="rounded-full shadow-lg" height="400" src="yp.jpg" width="400"/>
+     </div>
+     <div class="md:w-1/2 px-1">
+      <h2 class="text-3xl font-bold text-gray-800 mb-4">
+       About Me
+      </h2>
+      <p class="text-gray-600 mb-4">
+       Hello, I'm Yoon Phyu Phyu Aye. I am 20 years old, passionated in 3D viscualization and Interior Design. I've been working since 2022, in my first year university student, experienced in Interior Design, Digital Content Creating, UIUX Design.
+      </p> <hr> <br>
+      <p class="text-gray-600 mb-4">I have Professional Certificates for Freelancer Status. <br>1. Fairway Technology (Professional Web Developer) <br>2. KMD Microsoft Office 2021 (Office 2021) <br>3. Cousera (Design)</p>
+     </div>
+    </div>
+   </section>
+   <section class="py-20 flex justify-around" id="4">
+    <div class="container mx-auto px-16">
+     <h2 class="text-3xl font-bold text-gray-800 mb-10">
+      Recent Projects
+     </h2>
+     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+       <img alt="Project 1 screenshot" class="rounded-lg mb-4" height="250" src="pone.jpg" width="250"/>
+       <h3 class="text-xl font-semibold text-gray-800 mb-2">
+        Room Design
+       </h3>
+       <p class="text-gray-600">
+        This is 3D Bedroom Design, featuring one bed and other accessories.
+       </p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+       <img alt="Project 2 screenshot" class="rounded-lg mb-4" height="250" src="ptwo.jpg" width="250"/>
+       <h3 class="text-xl font-semibold text-gray-800 mb-2">
+        Floor Plan
+       </h3>
+       <p class="text-gray-600">
+        The Floor Design of a condo, featuring many room designs that included in project.
+       </p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+       <img alt="Project 3 screenshot" class="rounded-lg mb-4" height="250" src="three.png" width="250"/>
+       <h3 class="text-xl font-semibold text-gray-800 mb-2">
+        Condominium
+       </h3>
+       <p class="text-gray-600">
+        3D visualized model design of a condo,which is one of the projects.
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-black py-6 flex justify-around">
+   <div class="container mx-auto px-4 text-center text-white">
+    <div class="mb-4">
+     <a class="mx-2 text-white hover:text-gray-400" href="https://www.facebook.com/share/K21F4DL5nSAmdrH6/">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a class="mx-2 text-white hover:text-gray-400" href="https://www.facebook.com/share/K21F4DL5nSAmdrH6/">
+      <i class="fab fa-facebook-messenger">
+      </i>
+     </a>
+     <a class="mx-2 text-white hover:text-gray-400" href="https://line.me/ti/p/BCeLBnkT32">
+      <i class="fab fa-line">
+      </i>
+     </a>
+     <a class="mx-2 text-white hover:text-gray-400" href="https://t.me/Fshncc">
+      <i class="fab fa-telegram">
+      </i>
+     </a>
+    </div>
+    <p class="text-gray-400">
+     &copy; 2024 Yoon. All rights reserved.
+    </p>
+   </div>
+  </footer>
+  <script>
+   document.getElementById('menu-button').addEventListener('click', function() {
+            var menu = document.getElementById('mobile-menu');
+            if (menu.style.display === 'none' || menu.style.display === '') {
+                menu.style.display = 'block';
+            } else {
+                menu.style.display = 'none';
+            }
+        });
+        
+        document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('Gmail').addEventListener('click', function() {
+        const email = 'burmesewojak@gmail.com';
+        const subject = 'Hello, Aung Bhone Myat';
+        const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}`;
+        
+        // Open the mailto link using a new URL
+        window.open(mailtoLink, '_self');
+    });
+});
+
+<!--SCREENSHOT-->
+document.addEventListener('contextmenu', function(event){
+    event.preventDefault();
+});
+
+document.addEventListener('keydown', function(event) {
+        if (event.key === "PrintScreen") {
+            alert('Screenshots are not allowed.');
+            document.body.style.display = "none"; // Hide content as a deterrent
+            setTimeout(() => document.body.style.display = "block", 2000); // Restore content after delay
+        }
+    });
+    document.addEventListener('keydown', function(event) {
+    if (event.key === 'PrintScreen') {
+        alert('Screenshots are not allowed.');
+        document.body.style.filter = "blur(10px)"; // Blur the page content
+        setTimeout(() => document.body.style.filter = "none", 2000); // Remove blur after 2 seconds
+    }
+});
+document.addEventListener('contextmenu', function(event) {
+    event.preventDefault();
+});
+
+document.addEventListener('keydown', function(event) {
+    if (event.ctrlKey && (event.key === 'c' || event.key === 'p')) { // Prevent Ctrl+C or Ctrl+P
+        event.preventDefault();
+        alert('Copying and printing are disabled.');
+    }
+});
+
+  </script>
+ </body>
+</html>
